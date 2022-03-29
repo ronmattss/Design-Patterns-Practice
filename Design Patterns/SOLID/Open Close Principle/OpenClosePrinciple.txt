@@ -1,0 +1,13 @@
+this principle states that a class is close to modification but open to extension
+meaning that a base class implemented should not be modified but just extended
+In this example we would want to calculate the salary of developers.
+
+The initial solution is to create a developer class and calculate it on a Salary Calculator, but what if different positions has different percentage of salary calculations?
+
+Let say a Senior position has its salary multiplied to 1.5 but the junior has none. 
+
+initial solution is to create a conditional statements on the salary Calculator, but what if more positions have different multipliers?
+
+But with Open Close Principle the solution is to create an abstract Class BaseSalaryCalculator, and then create a class for each position and inherit from BaseSalaryCalculator
+
+
