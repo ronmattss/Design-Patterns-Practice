@@ -1,0 +1,5 @@
+This pattern simply states that a class or method should only be responsible to one specific task.
+In this folder we have three classes that are responsible for different tasks.
+1. Employee class
+2. Employee Registry class
+3. Employee email service class ( in this case this will be a logger class)

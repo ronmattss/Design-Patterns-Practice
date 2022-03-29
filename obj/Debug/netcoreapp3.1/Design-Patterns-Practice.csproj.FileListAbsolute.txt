@@ -1,0 +1,13 @@
+E:\Programming_Stuff\C#\Design-Patterns-Practice\bin\Debug\netcoreapp3.1\Design-Patterns-Practice.exe
+E:\Programming_Stuff\C#\Design-Patterns-Practice\bin\Debug\netcoreapp3.1\Design-Patterns-Practice.deps.json
+E:\Programming_Stuff\C#\Design-Patterns-Practice\bin\Debug\netcoreapp3.1\Design-Patterns-Practice.runtimeconfig.json
+E:\Programming_Stuff\C#\Design-Patterns-Practice\bin\Debug\netcoreapp3.1\Design-Patterns-Practice.runtimeconfig.dev.json
+E:\Programming_Stuff\C#\Design-Patterns-Practice\bin\Debug\netcoreapp3.1\Design-Patterns-Practice.dll
+E:\Programming_Stuff\C#\Design-Patterns-Practice\bin\Debug\netcoreapp3.1\Design-Patterns-Practice.pdb
+E:\Programming_Stuff\C#\Design-Patterns-Practice\obj\Debug\netcoreapp3.1\Design-Patterns-Practice.csprojAssemblyReference.cache
+E:\Programming_Stuff\C#\Design-Patterns-Practice\obj\Debug\netcoreapp3.1\Design-Patterns-Practice.AssemblyInfoInputs.cache
+E:\Programming_Stuff\C#\Design-Patterns-Practice\obj\Debug\netcoreapp3.1\Design-Patterns-Practice.AssemblyInfo.cs
+E:\Programming_Stuff\C#\Design-Patterns-Practice\obj\Debug\netcoreapp3.1\Design-Patterns-Practice.csproj.CoreCompileInputs.cache
+E:\Programming_Stuff\C#\Design-Patterns-Practice\obj\Debug\netcoreapp3.1\Design-Patterns-Practice.dll
+E:\Programming_Stuff\C#\Design-Patterns-Practice\obj\Debug\netcoreapp3.1\Design-Patterns-Practice.pdb
+E:\Programming_Stuff\C#\Design-Patterns-Practice\obj\Debug\netcoreapp3.1\Design-Patterns-Practice.genruntimeconfig.cache
