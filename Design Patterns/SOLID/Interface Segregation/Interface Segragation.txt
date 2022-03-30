@@ -1,0 +1,33 @@
+This principle is easy to understand, but it is not obvious how to apply it.
+
+The principle states that every functionality is segregated through interfaces.
+For example all printers can print documents but not all printers can scan a document.
+Implementing a feature like this without this principle will be creating a bunch of functions inside a class. 
+
+With this principle, we can create a class that implements an interface for printing and then we can create another class that implements another interface for scanning and so on.
+
+without Interface Segregation a printer class will be like this:
+
+printer class
+Scan function
+Print function
+Photocopy function
+
+the problem with this is that not all printers have the same functionality.
+
+what if we need only a printer?
+what if we need a 3-in-1 printer? 
+
+segregated functions will be like this:
+
+3-in-1 printer class implements IPrint, IScan, IPhotocopy
+
+Print()
+Scan()
+Photocopy()
+
+a Basic printer will be like
+
+basic printer class implements Iprint
+
+Print()

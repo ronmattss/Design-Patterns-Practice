@@ -1,0 +1,19 @@
+Liskov Substitution Principle (LSP) 
+is a principle that states that objects should be replaceable with instances of their base classes without breaking the correctness of that program.
+Open Close Principle partially applies this but it is prone to errors from it's subtypes. 
+The solution for this is to create an interface for the main functionalities as a base for the subtypes such that every implemented subtypes will not break the program.
+
+This example will use a Page Roles model to demonstrate the LSP principle.
+The roles implemented are: Admin, Editor, and Viewer
+
+Admin Role has these functions:
+- Create posts
+- Edit posts
+- View posts
+Editor Role has these functions:
+- Edit posts
+- View posts
+Viewer Role has this function:
+- View posts
+
+which will all be an instance of Role class

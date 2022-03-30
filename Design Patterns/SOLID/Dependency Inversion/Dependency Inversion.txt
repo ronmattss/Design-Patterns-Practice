@@ -1,0 +1,7 @@
+﻿This principle states that low-level components should not depend on high-level components. Both should depend on abstractions.
+Basically stating that the components should be independent of each other.
+Meaning that components should be decoupled from each other.
+
+In this case creating instances of other classes in the higher level component is not a good idea.
+what we do is create a Factory class where all instances will be created. Then call the factory method to create the instance.
+In this way we can decouple Higher level components from lower level components.

@@ -1,11 +1,14 @@
 // This class only handles the data for an Employee
 
-public class Employee
+namespace Design_Patterns_Practice.Design_Patterns.SOLID.Single_Responsibility
 {
-   // create getter setter name position email
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-    public string Position { get; set; }
-    public string Email { get; set; }
+    public class Employee
+    {
+        // create getter setter name position email
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Position { get; set; }
+        public string Email { get; set; }
 
+    }
 }

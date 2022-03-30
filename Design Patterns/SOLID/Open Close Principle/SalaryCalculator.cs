@@ -1,22 +1,25 @@
 using System.Collections.Generic;
 
-public class SalaryCalculator
+namespace Design_Patterns_Practice.Design_Patterns.SOLID.Open_Close_Principle
 {
-    private readonly IEnumerable<BaseSalaryCalculator> _developerCalculation;
-
-    public SalaryCalculator(List<BaseSalaryCalculator> developers)
+    public class SalaryCalculator
     {
-        _developerCalculation = developers;
-    }
+        private readonly IEnumerable<BaseSalaryCalculator> _developerCalculation;
 
-    public double CalculateSalaries()
-    {
-        double totalSalaries = 0;
-        foreach (var developerCalc in _developerCalculation)
+        public SalaryCalculator(List<BaseSalaryCalculator> developers)
         {
-            totalSalaries  += developerCalc.CalculateSalaries();
+            _developerCalculation = developers;
         }
-        return totalSalaries ;
-    }
+
+        public double CalculateSalaries()
+        {
+            double totalSalaries = 0;
+            foreach (var developerCalc in _developerCalculation)
+            {
+                totalSalaries  += developerCalc.CalculateSalaries();
+            }
+            return totalSalaries ;
+        }
     
+    }
 }

@@ -1,11 +1,14 @@
-public abstract class BaseSalaryCalculator
+namespace Design_Patterns_Practice.Design_Patterns.SOLID.Open_Close_Principle
 {
-    protected Developer DeveloperReport {get; set;}
-
-    public BaseSalaryCalculator(Developer developerReport)
+    public abstract class BaseSalaryCalculator
     {
-        DeveloperReport = developerReport;
-    }
+        protected Developer DeveloperReport {get; set;}
 
-    public abstract double CalculateSalaries();
+        protected BaseSalaryCalculator(Developer developerReport)
+        {
+            DeveloperReport = developerReport;
+        }
+
+        public abstract double CalculateSalaries();
+    }
 }

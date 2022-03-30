@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 
-public class StaticData
+namespace Design_Patterns_Practice.Design_Patterns.SOLID.Single_Responsibility
 {
-    public static List<Employee> Employee{get; set;} = new List<Employee>();
+    public class StaticData
+    {
+        public static List<Employee> Employee{get; set;} = new List<Employee>();
+    }
 }
